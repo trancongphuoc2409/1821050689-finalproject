@@ -8,6 +8,8 @@ body{
     font-family: 'Playfair Display', serif;
 }
 header{
+    max-width: 1800px;
+    margin: auto;
     background-color: #3b3e33;
     height: 250px;
     text-align: center;
@@ -25,8 +27,8 @@ header p{
 /* Thanh menu */
 
 .navbar{
-    max-width: 1600px;
-   height: 40px;
+    max-width: 1800px;
+    height: 40px;
     margin: auto;
     background-color:#228B22;
 }
@@ -59,11 +61,12 @@ nav ul li a:hover{
 /* Thanh menu con */
 .sub-menu-1{
     display: none;
+    position: absolute;
 }
 nav ul li:hover .sub-menu-1{
     position: absolute;
     display: block;
-    margin-top: 35px;
+    margin-top: 40px;
     background-color: #228B22;
 }
 nav ul li:hover .sub-menu-1 ul{
@@ -73,6 +76,60 @@ nav ul li:hover .sub-menu-1 ul li{
     width: 150px;
     border-bottom:1px dotted #fff;
     background: transparent;
-    border-radius: 0;
     text-align: left;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.title{
+    margin-top: 40px;
+    font-size: 35px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.myImages h3{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.txt-me{
+    margin-left: 40px;
+    font-size: 18px;
+}
+.btn{
+    margin-top: 20px;
+    display: inline-block;
+    padding: 8px 16px;
+    color: #fff;
+    background-color: #5246e2;
+    text-decoration: none; 
+}
+.btn:hover{
+    background-color: #3b3e33;
+}
+
+
+/* Skill */
+.title-skill{
+    font-size: 35px;
+    margin-top: 150px;
+}
+.row-skill{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-2{
+    margin:30px 100px 100px 0;
+    min-width: 450px;
+    flex-basis: 35%;
+}
+.col-2 p{
+    margin-top: 20px;
 }
