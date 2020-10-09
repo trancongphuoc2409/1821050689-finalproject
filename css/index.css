@@ -133,3 +133,8 @@ nav ul li:hover .sub-menu-1 ul li{
 .col-2 p{
     margin-top: 20px;
 }
+.banner_main__mid{
+    background-image: url('/img/counter-bg.jpg');
+    height: 400px;
+    background-size: cover;
+}
