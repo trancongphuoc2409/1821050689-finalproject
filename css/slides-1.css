@@ -1,13 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 body{
-    font-family: 'Teko', sans-serif;
-    
+    font-family: 'Playfair Display', serif;
 }
 .container__top{
     width: 100%;
@@ -21,7 +19,6 @@ body{
     display: block;
     font-size: 30px;
     color: #fff;
-   
 }
 nav {
     text-align: right;
@@ -35,14 +32,12 @@ nav ul li{
     position: relative;
     margin: 15px;
     width: 150px;
-   
 }
 nav ul li a{
     text-decoration: none;
     color: #fff;
     font-size: 18px;
     padding: 8px 30px;
-  
 }
 nav ul li a:hover{
     color: black;
@@ -60,12 +55,11 @@ nav ul li:hover .sub_menu_1 ul {
     text-align: left;
 }
 nav ul li:hover .sub_menu_1 ul li{
-    width: 200px;
+    width: 250px;
     padding: 10px;
     text-align: left;
 }
 /*----------------- Banner__Website --------------------*/
-
 .Banner{
     width: 100%;
     cursor: pointer;
@@ -124,9 +118,8 @@ nav ul li:hover .sub_menu_1 ul li{
 }
  /* Tour Du lịch */
  .small__container{
-     max-width: 1200px;
-     margin:100px auto;
-    
+    max-width: 1200px;
+    margin:100px auto;
  }
 .content__tour__hero{
     text-align: center;
@@ -165,7 +158,6 @@ hr{
     background-image: url('/img/typr_holiday/14737560533456_slider3.jpg');
     background-size: cover;
     cursor: pointer;
-   
 }
 .Wrapper{
     display: flex;
@@ -214,7 +206,7 @@ hr{
     font-size: 20px;
 }
 
-/* Footer */
+/*-------------------------- Footer ----------------------------*/
 a{
     text-decoration: none;
     color: #fff;
@@ -243,7 +235,7 @@ a{
     color: red;
 }
 .footer__col__item h1{
-    font-size: 30px;
+    font-size: 20px;
 }
 .footer__col__item p{
     padding: 10px 10px 10px 0px;
@@ -255,8 +247,7 @@ a{
     padding: 20px 0 10px 0;
 }
 .footer__col__item h2{
-    font-size: 25px;
-    padding: 10px 0;
+    font-size: 20px;
 }
 .input__email{
     width: 200px;
