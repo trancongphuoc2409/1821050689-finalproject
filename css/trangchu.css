@@ -113,8 +113,15 @@ nav ul li:hover .sub_menu_1 ul li{
 }
 .btn__search{
     height: 30px;
-    outline: none;
+    border-radius: 5px;
+    outline-style: none;
     margin-left: 20px;
+    background-color:#252525;
+    color: #fff;
+}
+.btn__search:hover{
+    background-color: #fff;
+    color: black;
 }
  /* Tour Du lịch */
  .small__container{
@@ -222,35 +229,34 @@ a{
     height: 300px;
     cursor: pointer;
 }
-.footer__col__item{
+.footer__col__1,.footer__col__2,.footer__col__3,.footer__col__4{
     min-width: 200px;
-    margin-top: 40px;
-    padding-top: 20px;
+    margin-top: 60px;
 }
-.footer__col__item a{
-    color: #fff;
-    text-decoration: none;
+.footer__col__1 h2{
+    padding-bottom: 20px;
 }
-.footer__col__item a:hover{
-    color: red;
+.footer__col__1 p{
+    padding-bottom: 20px;
 }
-.footer__col__item h1{
-    font-size: 20px;
+.footer__col__2 h2{
+    padding-bottom: 16px;
 }
-.footer__col__item p{
-    padding: 10px 10px 10px 0px;
-}
-.footer__col__item ul li{
+.footer__col__2 ul li{
     list-style-type: none;
 }
-.footer__col__item ul li a{
-    padding: 20px 0 10px 0;
+.footer__col__3 h2{
+    padding-bottom: 50px;
 }
-.footer__col__item h2{
+.fa{
     font-size: 20px;
+    margin-right: 5px;
+}
+.footer__col__4 h2{
+    padding-bottom: 15px;
 }
 .input__email{
-    width: 200px;
+    width: 250px;
     height: 30px;
     padding-left: 5px;
     outline-style: none;
